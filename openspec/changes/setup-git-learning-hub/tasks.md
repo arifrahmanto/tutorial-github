@@ -63,7 +63,7 @@
 - [x] 8.2 Create visualisasi: branch structure diagrams untuk setiap strategy, release cycle, hotfix flow
 - [x] 8.3 Write hands-on exercise: simulate setiap strategy dengan realistic workflow scenarios
 - [x] 8.4 Document real-world strategy adoption dari GitHub CLI, Linux kernel, Netflix
-- [ ] 8.5 Create troubleshooting section: strategy not fitting team, adoption challenges
+- [x] 8.5 Create troubleshooting section: strategy not fitting team, adoption challenges
 - [x] 8.6 Link ke playground scenarios: scenario-2-branching, scenario-4-collaboration
 
 ## 9. Module 7: GitHub Pages Deployment
@@ -72,7 +72,7 @@
 - [x] 9.2 Create visualisasi: Pages deployment flow, gh-pages branch structure, DNS setup
 - [x] 9.3 Write hands-on exercise: enable Pages, setup gh-pages branch, deploy simple static site
 - [x] 9.4 Document real-world Pages examples dari project documentation sites
-- [ ] 9.5 Create troubleshooting section: Pages not building, caching issues, custom domain CNAME
+- [x] 9.5 Create troubleshooting section: Pages not building, caching issues, custom domain CNAME
 - [x] 9.6 Link ke playground scenario: scenario-5-github-actions
 
 ## 10. Module 8: Deployment dengan GitHub Actions

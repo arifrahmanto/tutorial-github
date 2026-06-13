@@ -128,6 +128,50 @@ git branch -a | grep next
 
 ---
 
+## ❓ Penyelesaian Masalah
+
+### Problem: "Strategi tidak cocok untuk tim"
+
+**Gejala:** Team mengalami delays, confusion tentang workflow.
+
+**Solusi:**
+```bash
+# Evaluate current strategy fit
+# 1. Check deployment frequency
+# 2. Check team size and experience
+# 3. Check codebase complexity
+
+# Decision tree:
+# - Frequent deployments → GitHub Flow
+# - Large teams + releases → Git Flow  
+# - High velocity, feature flags → Trunk-Based
+```
+
+### Problem: "Hotfix berjalan lambat di Git Flow"
+
+**Gejala:** Production bugs take too long ke-fix dan di-release.
+
+**Solusi:**
+- Prioritize hotfix branch seperti emergency
+- Keep hotfix branch selalu siap (quick switch)
+- Test hotfix thoroughly sebelum merge
+
+### Problem: "Feature branches menjadi stale di GitHub Flow"
+
+**Gejala:** Feature branches diverge jauh dari main, merge conflict meningkat.
+
+**Solusi:**
+```bash
+# Keep feature branches fresh
+git fetch origin
+git rebase origin/main  # or merge
+
+# Create short-lived branches (max 2-3 hari)
+# Push frequently untuk review
+```
+
+---
+
 ## ✅ Success Criteria
 
 Anda berhasil modul ini jika:

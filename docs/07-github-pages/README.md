@@ -104,6 +104,55 @@ https://username.github.io/repository-name
 
 ---
 
+## ❓ Penyelesaian Masalah
+
+### Problem: "GitHub Pages site tidak tampil"
+
+**Gejala:** Repository settings sudah benar tapi site masih tidak accessible.
+
+**Solusi:**
+```bash
+# 1. Verify gh-pages branch exists dan pushed
+git branch -r | grep gh-pages
+
+# 2. Check Pages settings di GitHub
+# Settings > Pages > Ensure gh-pages branch selected
+
+# 3. Check if index.html exists in root
+ls -la index.html
+
+# 4. Wait 1-2 menit untuk deployment
+```
+
+### Problem: "Jekyll build error"
+
+**Gejala:** Pages menunjukkan "Build failure" notification.
+
+**Solusi:**
+- Remove `_config.yml` jika tidak digunakan
+- Check Markdown syntax untuk errors
+- Lihat build log di GitHub Actions tab
+
+### Problem: "Custom domain tidak working"
+
+**Gejala:** CNAME record dibuat tapi domain tidak resolve.
+
+**Solusi:**
+```bash
+# 1. Create CNAME file di root
+echo "your-domain.com" > CNAME
+
+# 2. Configure DNS records di registrar
+# CNAME → username.github.io
+
+# 3. Wait untuk DNS propagation (24-48 jam)
+
+# 4. Test
+nslookup your-domain.com
+```
+
+---
+
 ## ✅ Success Criteria
 
 Anda berhasil modul ini jika:

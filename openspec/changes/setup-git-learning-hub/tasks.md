@@ -93,14 +93,14 @@
 
 - [x] 12.1 Setup repository dengan README template dan starter files
 - [x] 12.2 Write project guide: create repo lokal, add content, push ke GitHub
-- [ ] 12.3 Create progress checklist: init, configure, first commit, push, verify
-- [ ] 12.4 Document expected outcomes: visible di GitHub, commit history correct, team dapat clone
+- [x] 12.3 Create progress checklist: init, configure, first commit, push, verify
+- [x] 12.4 Document expected outcomes: visible di GitHub, commit history correct, team dapat clone
 
 ## 13. Project 2: Team Collaboration
 
 - [x] 13.1 Setup repository dengan initial branch structure dan multiple starter branches
 - [x] 13.2 Write project guide untuk simulated team: create feature branches, PRs, code review
-- [ ] 13.3 Create collaboration checklist: branch creation, PR, review, merge
+- [x] 13.3 Create collaboration checklist: branch creation, PR, review, merge
 - [ ] 13.4 Document merge conflict scenarios yang akan naturally occur
 - [ ] 13.5 Add mentor notes: what learner should experience dan learn dari collaboration
 

@@ -152,7 +152,50 @@ git merge feature/add-logging
 
 ---
 
-## 📚 Next Steps
+## � Collaboration Checklist
+
+- [ ] Feature branch created
+- [ ] Changes committed
+- [ ] Branch pushed to GitHub
+- [ ] Pull Request created
+- [ ] PR description written
+- [ ] Code reviewed
+- [ ] Changes requested handled
+- [ ] PR approved
+- [ ] PR merged to main
+- [ ] Branch deleted
+
+**Completion Status:** ___/10 items
+
+---
+
+## 📝 Mentor Notes
+
+Learner should experience:
+- The value of feature branches
+- PR workflow clarity
+- Review process importance
+- Conflict resolution (may occur)
+
+---
+
+## 🎯 Expected Outcomes
+
+✅ **Experience:**
+- Understand feature branch workflow
+- See PR/review process value
+- Practice code review
+- Merge code changes
+
+✅ **Technical Skills:**
+- Branch creation and management
+- Remote branch tracking
+- Pull Request workflow
+- Merge commit understanding
+
+---
+
+## �📚 Next Steps
 
 🎉 **Project 2 Complete!**
 

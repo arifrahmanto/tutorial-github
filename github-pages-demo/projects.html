@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Projects - Git & GitHub Hub</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; }
+        
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem; text-align: center; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+        
+        .breadcrumb { margin-bottom: 2rem; }
+        .breadcrumb a { color: #667eea; text-decoration: none; }
+        
+        .project-card { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); margin-bottom: 2rem; border-left: 5px solid #667eea; }
+        .project-number { display: inline-block; background: #667eea; color: white; padding: 0.3rem 0.8rem; border-radius: 20px; margin-bottom: 1rem; font-weight: bold; }
+        .project-title { font-size: 1.8rem; margin: 1rem 0; }
+        .project-duration { color: #666; margin: 0.5rem 0; }
+        .project-description { margin: 1.5rem 0; }
+        .project-objectives { background: #f9f9f9; padding: 1rem; border-radius: 5px; margin: 1.5rem 0; }
+        .project-objectives h4 { margin-bottom: 0.5rem; color: #667eea; }
+        .project-objectives ul { margin-left: 1.5rem; }
+        
+        .project-link { display: inline-block; margin-top: 1rem; padding: 0.7rem 1.5rem; background: #667eea; color: white; text-decoration: none; border-radius: 5px; transition: background 0.3s; }
+        .project-link:hover { background: #764ba2; }
+        
+        .difficulty { display: inline-block; margin-left: 1rem; padding: 0.3rem 0.8rem; border-radius: 3px; font-size: 0.9rem; }
+        .difficulty-1 { background: #d4edda; color: #155724; }
+        .difficulty-2 { background: #fff3cd; color: #856404; }
+        .difficulty-3 { background: #f8d7da; color: #721c24; }
+        .difficulty-4 { background: #d1ecf1; color: #0c5460; }
+        
+        footer { text-align: center; padding: 2rem; color: #666; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📦 Learning Projects</h1>
+        <p>Hands-on projects untuk consolidate semua yang sudah dipelajari</p>
+    </header>
+    
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">← Kembali ke Home</a>
+        </div>
+        
+        <div class="project-card">
+            <span class="project-number">Project 1</span>
+            <h2 class="project-title">First Repository
+                <span class="difficulty difficulty-1">Pemula</span>
+            </h2>
+            <p class="project-duration">⏱️ ~30 menit</p>
+            <p class="project-description">
+                Buat repository pertama Anda dari nol dan push ke GitHub. Project ini mengkonsolidasikan pembelajaran 
+                Module 1 dan 2 dengan hands-on practice membuat initial commit hingga visible di GitHub.
+            </p>
+            <div class="project-objectives">
+                <h4>🎯 Tujuan:</h4>
+                <ul>
+                    <li>Create local Git repository</li>
+                    <li>Configure Git identity</li>
+                    <li>Make first commit</li>
+                    <li>Create GitHub repository</li>
+                    <li>Connect dan push ke remote</li>
+                </ul>
+            </div>
+            <a href="../sample-projects/01-first-repo/" class="project-link">Mulai Project →</a>
+        </div>
+        
+        <div class="project-card">
+            <span class="project-number">Project 2</span>
+            <h2 class="project-title">Team Collaboration
+                <span class="difficulty difficulty-2">Menengah</span>
+            </h2>
+            <p class="project-duration">⏱️ ~1.5 jam</p>
+            <p class="project-description">
+                Simulasi tim development dengan multiple feature branches, pull requests, dan code reviews. 
+                Practice kolaborasi dan merge workflows yang sering terjadi di real projects.
+            </p>
+            <div class="project-objectives">
+                <h4>🎯 Tujuan:</h4>
+                <ul>
+                    <li>Create feature branches</li>
+                    <li>Create dan manage pull requests</li>
+                    <li>Code review process</li>
+                    <li>Merge conflict scenarios</li>
+                    <li>Team communication patterns</li>
+                </ul>
+            </div>
+            <a href="../sample-projects/02-team-project/" class="project-link">Mulai Project →</a>
+        </div>
+        
+        <div class="project-card">
+            <span class="project-number">Project 3</span>
+            <h2 class="project-title">Conflict Resolution
+                <span class="difficulty difficulty-2">Menengah</span>
+            </h2>
+            <p class="project-duration">⏱️ ~1 jam</p>
+            <p class="project-description">
+                Master merge conflict handling dengan practical scenarios. Pelajari cara identify, resolve, 
+                dan prevent conflicts saat bekerja dengan multiple developers.
+            </p>
+            <div class="project-objectives">
+                <h4>🎯 Tujuan:</h4>
+                <ul>
+                    <li>Understand conflict markers</li>
+                    <li>Resolve conflicts manually</li>
+                    <li>Use conflict resolution tools</li>
+                    <li>Prevention strategies</li>
+                    <li>Real-world conflict handling</li>
+                </ul>
+            </div>
+            <a href="../sample-projects/03-conflict-resolution/" class="project-link">Mulai Project →</a>
+        </div>
+        
+        <div class="project-card">
+            <span class="project-number">Project 4</span>
+            <h2 class="project-title">Open Source Contribution
+                <span class="difficulty difficulty-3">Lanjut</span>
+            </h2>
+            <p class="project-duration">⏱️ ~1.5 jam</p>
+            <p class="project-description">
+                Learn fork-based contribution workflow yang digunakan oleh ribuan developers untuk berkontribusi 
+                ke open source projects. Practice proper OSS contribution etiquette dan best practices.
+            </p>
+            <div class="project-objectives">
+                <h4>🎯 Tujuan:</h4>
+                <ul>
+                    <li>Fork repository</li>
+                    <li>Setup upstream remote</li>
+                    <li>Create meaningful contribution</li>
+                    <li>Submit pull request</li>
+                    <li>Handle reviewer feedback</li>
+                    <li>OSS best practices</li>
+                </ul>
+            </div>
+            <a href="../sample-projects/04-oss-style/" class="project-link">Mulai Project →</a>
+        </div>
+        
+        <div style="background: white; padding: 2rem; border-radius: 10px; margin-top: 3rem; text-align: center;">
+            <h3 style="color: #667eea; margin-bottom: 1rem;">🎉 Selesaikan Semua 4 Projects?</h3>
+            <p style="margin-bottom: 1rem;">Anda sudah siap untuk berkontribusi ke real open source projects!</p>
+            <p style="color: #666; font-size: 0.9rem;">Next step: Cari open source project yang menarik dan mulai kontribusi dengan confidence.</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Recommended progression: Project 1 → 2 → 3 → 4 (tidak harus berurutan)</p>
+        <p>Total time: ~5 hours | Setiap project bisa di-ulang sebanyak diperlukan untuk master</p>
+    </footer>
+</body>
+</html>

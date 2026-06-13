@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git & GitHub Learning Hub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        header {
+            background: rgba(0,0,0,0.1);
+            padding: 2rem;
+            text-align: center;
+            color: white;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .hero {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .hero h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        
+        .modules {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .module-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .module-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        
+        .module-card h3 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        
+        .module-card .duration {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        
+        .module-card a {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        
+        .module-card a:hover {
+            background: #764ba2;
+        }
+        
+        .projects {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .projects h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        
+        .project-list {
+            list-style: none;
+        }
+        
+        .project-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .project-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .project-list a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .project-list a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .progress-bar {
+            background: #eee;
+            height: 8px;
+            border-radius: 4px;
+            margin: 0.5rem 0;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            width: 0%;
+            transition: width 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🚀 Git & GitHub Learning Hub</h1>
+        <p>Master Git dan GitHub untuk kolaborasi tim dan kontribusi open source</p>
+    </header>
+    
+    <div class="container">
+        <div class="hero">
+            <h2>Selamat Datang, Developer Baru! 👋</h2>
+            <p>
+                Repository ini adalah platform pembelajaran komprehensif untuk menguasai Git, GitHub, 
+                dan best practices dalam pengembangan perangkat lunak. Melalui 8 modul terstruktur, 
+                4 learning projects, dan 5 playground scenarios, Anda akan belajar dari fundamental 
+                hingga siap berkontribusi ke open source projects.
+            </p>
+            <p style="margin-top: 1rem;">
+                ✨ <strong>Fitur:</strong> Modul interaktif, hands-on exercises, real-world examples, 
+                dan troubleshooting guides.
+            </p>
+        </div>
+        
+        <div class="modules">
+            <div class="module-card">
+                <h3>📚 8 Learning Modules</h3>
+                <p>Dari pembuatan repository hingga deployment dengan GitHub Actions</p>
+                <div class="duration">Durasi total: ~8 jam</div>
+                <ul style="list-style: none; margin: 1rem 0;">
+                    <li>✅ Git Fundamentals</li>
+                    <li>✅ Branch Management</li>
+                    <li>✅ Team Collaboration</li>
+                    <li>✅ Conflict Resolution</li>
+                </ul>
+            </div>
+            
+            <div class="module-card">
+                <h3>📦 4 Learning Projects</h3>
+                <p>Escalating complexity dari solo hingga open source contribution</p>
+                <div class="duration">Hands-on practice</div>
+                <ul style="list-style: none; margin: 1rem 0;">
+                    <li>✅ First Repository</li>
+                    <li>✅ Team Collaboration</li>
+                    <li>✅ Conflict Resolution</li>
+                    <li>✅ OSS Contribution</li>
+                </ul>
+            </div>
+            
+            <div class="module-card">
+                <h3>🎮 5 Playground Scenarios</h3>
+                <p>Reproducible scenarios untuk practice ulang tanpa efek samping</p>
+                <div class="duration">Bisa di-reset anytime</div>
+                <ul style="list-style: none; margin: 1rem 0;">
+                    <li>✅ First Commit</li>
+                    <li>✅ Branching</li>
+                    <li>✅ Merge Conflict</li>
+                    <li>✅ Team Work</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="projects">
+            <h2>📖 Quick Navigation</h2>
+            <ul class="project-list">
+                <li>🔰 <a href="modules.html">Mulai dari Module 1</a> - Perfect untuk pemula total</li>
+                <li>⚡ <a href="projects.html">Langsung ke Learning Projects</a> - Sudah paham basics</li>
+                <li>🎮 <a href="playground.html">Playground Scenarios</a> - Practice spesifik konsep</li>
+                <li>🌐 <a href="https://github.com/YOUR-USERNAME/tutorial-github">GitHub Repository</a> - Lihat full content di GitHub</li>
+            </ul>
+        </div>
+        
+        <div class="projects">
+            <h2>📊 Your Learning Path</h2>
+            <p><strong>Module Completion:</strong></p>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 0%;"></div>
+            </div>
+            <p style="margin-top: 1rem; color: #666; font-size: 0.9rem;">
+                Fork repository dan track progress di fork Anda dengan update checklist!
+            </p>
+        </div>
+        
+        <div class="projects" id="get-started">
+            <h2>🚀 Get Started</h2>
+            <ol style="margin-left: 1.5rem; line-height: 2;">
+                <li>Fork repository dari GitHub</li>
+                <li>Clone ke local machine</li>
+                <li>Mulai dari <code>docs/01-pembuatan-repositori/</code></li>
+                <li>Follow checklist untuk track progress</li>
+                <li>Practice di playground scenarios</li>
+                <li>Complete learning projects</li>
+                <li>Contribute ke open source projects! 🎉</li>
+            </ol>
+        </div>
+    </div>
+    
+    <footer>
+        <p>🙏 Happy Learning! | <a href="https://github.com" style="color: white;">Learn more about Git & GitHub</a></p>
+        <p style="margin-top: 1rem; font-size: 0.9rem;">Tutorial GitHub Learning Platform | MIT Licensed</p>
+    </footer>
+</body>
+</html>

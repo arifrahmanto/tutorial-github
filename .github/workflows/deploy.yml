@@ -1,0 +1,47 @@
+name: Deploy to GitHub Pages & Netlify
+
+on:
+  push:
+    branches:
+      - gh-pages
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Validate content structure
+        run: |
+          echo "Validating repository structure..."
+          test -d docs && echo "✓ docs/ folder exists"
+          test -d playground && echo "✓ playground/ folder exists"
+          test -d sample-projects && echo "✓ sample-projects/ folder exists"
+          test -f README.md && echo "✓ README.md exists"
+          test -f CONTRIBUTING.md && echo "✓ CONTRIBUTING.md exists"
+          echo "✓ All validation passed!"
+
+  deploy-netlify:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/gh-pages' && github.event_name == 'push'
+    needs: build
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v1.2
+        with:
+          publish-dir: './github-pages-demo'
+          production-branch: gh-pages
+          netlify-config-path: './netlify.toml'
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Modules - Git & GitHub Hub</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; }
+        
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem; text-align: center; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+        
+        .breadcrumb { margin-bottom: 2rem; }
+        .breadcrumb a { color: #667eea; text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        
+        .modules-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 2rem 0; }
+        
+        .module-card { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .module-card:hover { transform: translateY(-5px); }
+        
+        .module-number { font-size: 2rem; color: #667eea; font-weight: bold; }
+        .module-title { font-size: 1.5rem; margin: 0.5rem 0; }
+        .module-duration { color: #666; font-size: 0.9rem; margin: 0.5rem 0; }
+        .module-description { margin: 1rem 0; }
+        .module-topics { list-style: none; margin: 1rem 0; }
+        .module-topics li { padding: 0.3rem 0; }
+        .module-topics li:before { content: "✓ "; color: #667eea; }
+        
+        .module-link { display: inline-block; margin-top: 1rem; padding: 0.7rem 1.5rem; background: #667eea; color: white; text-decoration: none; border-radius: 5px; transition: background 0.3s; }
+        .module-link:hover { background: #764ba2; }
+        
+        .progress-section { background: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .progress-title { font-size: 1.3rem; margin-bottom: 1rem; color: #667eea; }
+        .progress-bar { background: #e0e0e0; height: 10px; border-radius: 5px; margin: 0.5rem 0; overflow: hidden; }
+        .progress-fill { height: 100%; background: linear-gradient(90deg, #667eea, #764ba2); width: 45%; }
+        .progress-text { font-size: 0.9rem; color: #666; margin-top: 0.5rem; }
+        
+        footer { text-align: center; padding: 2rem; color: #666; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📚 Learning Modules</h1>
+        <p>Master Git & GitHub dengan 8 modul terstruktur</p>
+    </header>
+    
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">← Kembali ke Home</a>
+        </div>
+        
+        <div class="progress-section">
+            <h2 class="progress-title">📊 Overall Progress</h2>
+            <p>Your Learning Journey</p>
+            <div class="progress-bar"><div class="progress-fill"></div></div>
+            <p class="progress-text">45% - You're doing great! Fork repository dan track progress mu dengan checklist.</p>
+        </div>
+        
+        <div class="modules-grid">
+            <div class="module-card">
+                <div class="module-number">01</div>
+                <h3 class="module-title">Pembuatan Repositori Git</h3>
+                <p class="module-duration">⏱️ ~45 menit</p>
+                <p class="module-description">Pelajari cara membuat Git repository lokal, configure, dan push ke GitHub untuk pertama kalinya.</p>
+                <ul class="module-topics">
+                    <li>Git initialization</li>
+                    <li>Local vs Remote</li>
+                    <li>First commit</li>
+                    <li>GitHub setup</li>
+                </ul>
+                <a href="../docs/01-pembuatan-repositori/" class="module-link">Mulai Module →</a>
+            </div>
+            
+            <div class="module-card">
+                <div class="module-number">02</div>
+                <h3 class="module-title">Perintah Dasar Git</h3>
+                <p class="module-duration">⏱️ ~1 jam</p>
+                <p class="module-description">Kuasai 10 perintah esensial Git yang digunakan setiap hari oleh developer profesional.</p>
+                <ul class="module-topics">
+                    <li>git add & commit</li>
+                    <li>git push & pull</li>
+                    <li>git log & status</li>
+                    <li>git diff & reset</li>
+                </ul>
+                <a href="../docs/02-perintah-dasar/" class="module-link">Mulai Module →</a>
+            </div>
+            
+            <div class="module-card">
+                <div class="module-number">03</div>
+                <h3 class="module-title">Manajemen Cabang</h3>
+                <p class="module-duration">⏱️ ~1 jam</p>
+                <p class="module-description">Pelajari branching strategies dan cara bekerja dengan multiple branches untuk fitur paralel.</p>
+                <ul class="module-topics">
+                    <li>Branch concept</li>
+                    <li>Naming conventions</li>
+                    <li>Merge & rebase</li>
+                    <li>Branch cleanup</li>
+                </ul>
+                <a href="../docs/03-manajemen-cabang/" class="module-link">Mulai Module →</a>
+            </div>
+            
+            <div class="module-card">
+                <div class="module-number">04</div>
+                <h3 class="module-title">Kolaborasi Tim</h3>
+                <p class="module-duration">⏱️ ~1.5 jam</p>
+                <p class="module-description">Master pull requests, code reviews, dan kolaborasi tim yang efektif di GitHub.</p>
+                <ul class="module-topics">
+                    <li>PR workflow</li>
+                    <li>Code review</li>
+                    <li>Collaboration best practices</li>
+                    <li>Communication</li>
+                </ul>
+                <a href="../docs/04-kolaborasi-tim/" class="module-link">Mulai Module →</a>
+            </div>
+            
+            <div class="module-card">
+                <div class="module-number">05</div>
+                <h3 class="module-title">Solusi Konflik</h3>
+                <p class="module-duration">⏱️ ~1 jam</p>
+                <p class="module-description">Pahami merge conflicts dan strategi resolusi saat beberapa orang mengedit file yang sama.</p>
+                <ul class="module-topics">
+                    <li>Conflict mechanics</li>
+                    <li>Conflict markers</li>
+                    <li>Resolution strategies</li>
+                    <li>Prevention tips</li>
+                </ul>
+                <a href="../docs/05-solusi-konflik/" class="module-link">Mulai Module →</a>
+            </div>
+            
+            <div class="module-card">
+                <div class="module-number">06</div>
+                <h3 class="module-title">Strategi Implementasi</h3>
+                <p class="module-duration">⏱️ ~1.5 jam</p>
+                <p class="module-description">Bandingkan Git Flow, GitHub Flow, dan trunk-based development untuk memilih yang sesuai tim Anda.</p>
+                <ul class="module-topics">
+                    <li>Git Flow</li>
+                    <li>GitHub Flow</li>
+                    <li>Trunk-based</li>
+                    <li>Real-world adoption</li>
+                </ul>
+                <a href="../docs/06-strategi-implementasi/" class="module-link">Mulai Module →</a>
+            </div>
+            
+            <div class="module-card">
+                <div class="module-number">07</div>
+                <h3 class="module-title">GitHub Pages</h3>
+                <p class="module-duration">⏱️ ~45 menit</p>
+                <p class="module-description">Deploy static website gratis menggunakan GitHub Pages dari repository Anda sendiri.</p>
+                <ul class="module-topics">
+                    <li>Pages mechanics</li>
+                    <li>gh-pages branch</li>
+                    <li>Custom domain</li>
+                    <li>SSL/HTTPS</li>
+                </ul>
+                <a href="../docs/07-github-pages/" class="module-link">Mulai Module →</a>
+            </div>
+            
+            <div class="module-card">
+                <div class="module-number">08</div>
+                <h3 class="module-title">GitHub Actions</h3>
+                <p class="module-duration">⏱️ ~1.5 jam</p>
+                <p class="module-description">Automate CI/CD workflows untuk testing, building, dan deployment dengan GitHub Actions + Netlify.</p>
+                <ul class="module-topics">
+                    <li>Actions architecture</li>
+                    <li>Workflow YAML</li>
+                    <li>Triggers & jobs</li>
+                    <li>Netlify integration</li>
+                </ul>
+                <a href="../docs/08-github-actions/" class="module-link">Mulai Module →</a>
+            </div>
+        </div>
+        
+        <div class="progress-section">
+            <h2 class="progress-title">💡 Tips Belajar</h2>
+            <ul style="list-style: none;">
+                <li>✅ Ikuti modul berurutan dari 01-08</li>
+                <li>✅ Practice hands-on exercises di setiap modul</li>
+                <li>✅ Jangan skip troubleshooting sections</li>
+                <li>✅ Lihat real-world examples untuk konteks</li>
+                <li>✅ Use playground scenarios untuk extra practice</li>
+                <li>✅ Selesaikan learning projects untuk consolidation</li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Total estimated time: ~8 hours | Recommended pace: 1 module per day</p>
+        <p>Siap untuk lebih banyak? → Lanjut ke <a href="projects.html" style="color: #667eea;">Learning Projects</a></p>
+    </footer>
+</body>
+</html>

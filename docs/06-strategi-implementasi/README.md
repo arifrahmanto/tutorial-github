@@ -138,6 +138,12 @@ Anda berhasil modul ini jika:
 
 ---
 
+## 🎮 Praktik di Playground
+
+Sudah siap? Coba **[Scenario 2: Branching](../../playground/scenario-2-branching-README.md)** dan **[Scenario 4: Collaboration](../../playground/scenario-4-collaboration-README.md)** untuk memperdalam strategi!
+
+---
+
 ## 🔗 Next Steps
 
 ✅ Complete module ini → Go to **[Module 7: GitHub Pages](../07-github-pages/)**

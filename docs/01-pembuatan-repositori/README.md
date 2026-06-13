@@ -293,6 +293,12 @@ Anda berhasil modul ini jika:
 
 ---
 
+## 🎮 Praktik di Playground
+
+Sudah siap? Coba **[Scenario 1: First Commit](../../playground/scenario-1-first-commit-README.md)** untuk latihan interaktif!
+
+---
+
 ## 🔗 Next Steps
 
 ✅ Complete module ini → Go to **[Module 2: Perintah Dasar](../02-perintah-dasar/)**

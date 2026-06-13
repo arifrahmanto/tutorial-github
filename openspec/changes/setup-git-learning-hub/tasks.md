@@ -2,7 +2,7 @@
 
 - [x] 1.1 Create folder structure: `/docs/`, `/playground/`, `/sample-projects/`, `/github-pages-demo/`
 - [x] 1.2 Create main README.md dengan overview, learning path, dan progress tracking template
-- [ ] 1.3 Setup `gh-pages` branch untuk GitHub Pages deployment
+- [x] 1.3 Setup `gh-pages` branch untuk GitHub Pages deployment
 - [ ] 1.4 Configure GitHub Pages settings: source branch = gh-pages, enforce HTTPS
 - [x] 1.5 Create `.github/workflows/` directory untuk GitHub Actions workflows
 
@@ -10,7 +10,7 @@
 
 - [x] 2.1 Create `/docs/` sub-folders untuk 8 modul: `01-pembuatan-repositori/`, `02-perintah-dasar/`, `03-manajemen-cabang/`, `04-kolaborasi-tim/`, `05-solusi-konflik/`, `06-strategi-implementasi/`, `07-github-pages/`, `08-github-actions/`
 - [x] 2.2 Create README template untuk setiap modul dengan sections: Konsep, Visualisasi, Hands-On, Real-world, Troubleshooting
-- [ ] 2.3 Create progress tracking checklist template untuk setiap modul
+- [x] 2.3 Create progress tracking checklist template untuk setiap modul
 
 ## 3. Module 1: Pembuatan Repositori Git
 
@@ -19,7 +19,7 @@
 - [x] 3.3 Write hands-on exercise: step-by-step untuk git init, git config, first commit, git push
 - [x] 3.4 Find dan document real-world example dari Linux kernel atau GitHub CLI repository
 - [x] 3.5 Create troubleshooting section: detached HEAD, wrong remote, authentication issues
-- [ ] 3.6 Link ke playground scenario: scenario-1-first-commit
+- [x] 3.6 Link ke playground scenario: scenario-1-first-commit
 
 ## 4. Module 2: Perintah Dasar Git
 
@@ -28,7 +28,7 @@
 - [x] 4.3 Write hands-on exercise: practice setiap perintah dengan real examples
 - [x] 4.4 Find real-world git log examples dan dokumentasikan commit message best practices
 - [x] 4.5 Create troubleshooting section: undo commits, staging mistakes, merge vs rebase confusion
-- [ ] 4.6 Link ke playground scenario: scenario-1-first-commit
+- [x] 4.6 Link ke playground scenario: scenario-1-first-commit
 
 ## 5. Module 3: Manajemen Cabang
 
@@ -37,7 +37,7 @@
 - [x] 5.3 Write hands-on exercise: create, switch, delete branches, merge dengan dan tanpa conflict
 - [x] 5.4 Document real-world branching strategies dari GitHub Flow, Git Flow projects
 - [x] 5.5 Create troubleshooting section: branch not found, wrong merge target, orphaned branches
-- [ ] 5.6 Link ke playground scenario: scenario-2-branching
+- [x] 5.6 Link ke playground scenario: scenario-2-branching
 
 ## 6. Module 4: Kolaborasi Tim di Git
 
@@ -46,7 +46,7 @@
 - [x] 6.3 Write hands-on exercise: create PR, review feedback, request changes, merge
 - [x] 6.4 Document real-world code review culture dari well-maintained open source projects
 - [x] 6.5 Create troubleshooting section: stale PR, merge conflicts, reviewer communication
-- [ ] 6.6 Link ke playground scenario: scenario-4-collaboration
+- [x] 6.6 Link ke playground scenario: scenario-4-collaboration
 
 ## 7. Module 5: Solusi Konflik
 
@@ -55,7 +55,7 @@
 - [x] 7.3 Write hands-on exercise: trigger conflict sengaja, resolve manual dan dengan tools
 - [x] 7.4 Document real-world conflict resolution strategies dari large teams
 - [x] 7.5 Create troubleshooting section: binary file conflicts, deleted vs modified, rebase conflicts
-- [ ] 7.6 Link ke playground scenario: scenario-3-merge-conflict
+- [x] 7.6 Link ke playground scenario: scenario-3-merge-conflict
 
 ## 8. Module 6: Strategi Implementasi Git dalam SDLC
 
@@ -64,7 +64,7 @@
 - [x] 8.3 Write hands-on exercise: simulate setiap strategy dengan realistic workflow scenarios
 - [x] 8.4 Document real-world strategy adoption dari GitHub CLI, Linux kernel, Netflix
 - [ ] 8.5 Create troubleshooting section: strategy not fitting team, adoption challenges
-- [ ] 8.6 Link ke playground scenarios: scenario-2-branching, scenario-4-collaboration
+- [x] 8.6 Link ke playground scenarios: scenario-2-branching, scenario-4-collaboration
 
 ## 9. Module 7: GitHub Pages Deployment
 
@@ -73,7 +73,7 @@
 - [x] 9.3 Write hands-on exercise: enable Pages, setup gh-pages branch, deploy simple static site
 - [x] 9.4 Document real-world Pages examples dari project documentation sites
 - [ ] 9.5 Create troubleshooting section: Pages not building, caching issues, custom domain CNAME
-- [ ] 9.6 Link ke playground scenario: scenario-5-github-actions
+- [x] 9.6 Link ke playground scenario: scenario-5-github-actions
 
 ## 10. Module 8: Deployment dengan GitHub Actions
 
@@ -82,7 +82,7 @@
 - [x] 10.3 Write hands-on exercise: create workflow YAML, trigger via push/PR, observe execution
 - [x] 10.4 Document Netlify integration: authenticate, trigger deploy, preview workflows
 - [x] 10.5 Create troubleshooting section: workflow not triggering, step failures, secret management
-- [ ] 10.6 Link ke playground scenario: scenario-5-github-actions
+- [x] 10.6 Link ke playground scenario: scenario-5-github-actions
 
 ## 11. Learning Projects Setup
 

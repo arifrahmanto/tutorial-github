@@ -275,6 +275,12 @@ Anda berhasil modul ini jika:
 
 ---
 
+## 🎮 Praktik di Playground
+
+Sudah siap? Coba **[Scenario 2: Branching](../../playground/scenario-2-branching-README.md)** untuk latihan interaktif!
+
+---
+
 ## 🔗 Next Steps
 
 ✅ Complete module ini → Go to **[Module 4: Kolaborasi Tim](../04-kolaborasi-tim/)**

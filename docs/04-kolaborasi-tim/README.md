@@ -277,6 +277,12 @@ Anda berhasil modul ini jika:
 
 ---
 
+## 🎮 Praktik di Playground
+
+Sudah siap? Coba **[Scenario 4: Collaboration](../../playground/scenario-4-collaboration-README.md)** untuk latihan tim!
+
+---
+
 ## 🔗 Next Steps
 
 ✅ Complete module ini → Go to **[Module 5: Solusi Konflik](../05-solusi-konflik/)**

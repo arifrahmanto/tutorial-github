@@ -299,6 +299,12 @@ Anda berhasil modul ini jika:
 
 ---
 
+## 🎮 Praktik di Playground
+
+Sudah siap? Coba **[Scenario 1: First Commit](../../playground/scenario-1-first-commit-README.md)** untuk latihan interaktif!
+
+---
+
 ## 🔗 Next Steps
 
 ✅ Complete module ini → Go to **[Module 3: Manajemen Cabang](../03-manajemen-cabang/)**

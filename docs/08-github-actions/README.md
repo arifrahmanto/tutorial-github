@@ -116,6 +116,20 @@ Anda berhasil modul ini jika:
 
 ---
 
+## 🎮 Praktik di Playground
+
+Sudah siap? Coba **[Scenario 5: GitHub Actions](../../playground/scenario-5-github-actions-README.md)** untuk automation CI/CD!
+
+---
+
+## 🔗 Next Steps
+
+🎉 **Selamat!** Anda sudah complete semua 8 modules!
+
+Lanjutkan ke **Learning Projects** di folder `/sample-projects/`
+
+---
+
 ## 📚 Resources
 
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)

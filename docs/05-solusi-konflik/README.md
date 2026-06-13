@@ -259,6 +259,12 @@ Anda berhasil modul ini jika:
 
 ---
 
+## 🎮 Praktik di Playground
+
+Sudah siap? Coba **[Scenario 3: Merge Conflict](../../playground/scenario-3-merge-conflict-README.md)** untuk latihan resolusi!
+
+---
+
 ## 🔗 Next Steps
 
 ✅ Complete module ini → Go to **[Module 6: Strategi Implementasi](../06-strategi-implementasi/)**

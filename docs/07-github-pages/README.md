@@ -115,6 +115,12 @@ Anda berhasil modul ini jika:
 
 ---
 
+## 🎮 Praktik di Playground
+
+Sudah siap? Coba **[Scenario 5: GitHub Actions](../../playground/scenario-5-github-actions-README.md)** untuk deployment automation!
+
+---
+
 ## 🔗 Next Steps
 
 ✅ Complete module ini → Go to **[Module 8: GitHub Actions](../08-github-actions/)**
